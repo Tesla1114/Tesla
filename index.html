@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tesla+ - The Future of Electric Vehicles</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Header -->
+    <header id="main-header">
+        <div class="container">
+            <a href="#" class="logo">TESLA+</a>
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#models">Models</a></li>
+                    <li><a href="#energy">Energy</a></li>
+                    <li><a href="#charging">Charging</a></li>
+                    <li><a href="#discover">Discover</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button aria-label="Support">
+                    <i data-lucide="help-circle"></i>
+                </button>
+                <button aria-label="Account">
+                    <i data-lucide="user"></i>
+                </button>
+                <button id="menu-toggle" aria-label="Menu">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="mobile-menu">
+        <button id="close-menu" aria-label="Close menu">
+            <i data-lucide="x"></i>
+        </button>
+        <nav>
+            <ul>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#energy">Energy</a></li>
+                <li><a href="#charging">Charging</a></li>
+                <li><a href="#discover">Discover</a></li>
+                <li><a href="#shop">Shop</a></li>
+                <li><a href="#support">Support</a></li>
+                <li><a href="#account">Account</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Side Navigation Dots -->
+    <nav class="side-nav">
+        <ul>
+            <li><a href="#hero" class="active"></a></li>
+            <li><a href="#models"></a></li>
+            <li><a href="#energy"></a></li>
+            <li><a href="#charging"></a></li>
+            <li><a href="#discover"></a></li>
+            <li><a href="#shop"></a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <video autoplay muted loop playsinline>
+                <source src="https://digitalassets.tesla.com/tesla-contents/video/upload/f_auto,q_auto/Model-S-Main-Hero-Desktop-LHD-Animation.mp4" type="video/mp4">
+            </video>
+            <div class="container">
+                <div class="hero-content">
+                    <h1>
+                        <span>The</span>
+                        <span class="gradient-text">Future</span>
+                        <span>Is Electric</span>
+                    </h1>
+                    <p>Experience the next generation of automotive excellence with Tesla's revolutionary electric vehicles.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-primary">Explore Models</a>
+                        <a href="#" class="btn btn-secondary">Schedule Test Drive</a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <i data-lucide="chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- Model Y Section -->
+        <section id="models" class="model-section">
+            <div class="container">
+                <div class="model-content">
+                    <div class="model-info">
+                        <h3>Tesla</h3>
+                        <h2>Model Y</h2>
+                        <div class="model-stats">
+                            <div>
+                                <p>330<span>+</span></p>
+                                <p>mi Range</p>
+                            </div>
+                            <div>
+                                <p>3.5<span>s</span></p>
+                                <p>0-60 mph</p>
+                            </div>
+                            <div>
+                                <p>AWD</p>
+                                <p>Dual Motor</p>
+                            </div>
+                        </div>
+                        <p class="model-price">From $42,990* with potential savings of $7,500 federal tax credit</p>
+                        <div class="cta-buttons">
+                            <a href="#" class="btn btn-primary">Order Now</a>
+                            <a href="#" class="btn btn-secondary">Demo Drive</a>
+                        </div>
+                    </div>
+                    <div class="model-image">
+                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Model-Y-Main-Hero-Desktop-Global.jpg" alt="Tesla Model Y">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Energy Section -->
+        <section id="energy" class="energy-section">
+            <div class="container">
+                <div class="energy-content">
+                    <h3>Sustainable Energy</h3>
+                    <h2>
+                        <span>Power Your</span>
+                        <span class="gradient-text">Home & Life</span>
+                    </h2>
+                    <p>Create a complete sustainable energy ecosystem with Tesla solar panels, Solar Roof, and Powerwall battery storage.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-primary">Order Solar</a>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="energy-products">
+                    <div class="energy-product">
+                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Desktop_SolarPanels.jpg" alt="Solar Panels">
+                        <h3>Solar Panels</h3>
+                        <p>Lowest Cost Solar Panels in America</p>
+                    </div>
+                    <div class="energy-product">
+                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Desktop_SolarRoof.jpg" alt="Solar Roof">
+                        <h3>Solar Roof</h3>
+                        <p>Produce Clean Energy From Your Roof</p>
+                    </div>
+                    <div class="energy-product">
+                        <img src="https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/power-your-home-desktop.png" alt="Powerwall">
+                        <h3>Powerwall</h3>
+                        <p>Compact Home Battery Storage</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charging Section -->
+        <section id="charging" class="charging-section">
+            <div class="container">
+                <div class="charging-content">
+                    <h3>Tesla</h3>
+                    <h2>Supercharger</h2>
+                    <p>The world's fastest charging network. Travel anywhere with convenient access to our global charging network.</p>
+                    <div class="cta-buttons">
+                        <a href="#" class="btn btn-primary">Find Locations</a>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+                <div class="charging-features">
+                    <div class="feature">
+                        <h3>250kW</h3>
+                        <p>Superchargers deliver up to 250kW, adding up to 200 miles in just 15 minutes.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>45,000+</h3>
+                        <p>Superchargers worldwide, with new locations opening every week.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Route Planning</h3>
+                        <p>Built-in trip planner automatically routes you through Superchargers on your journey.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Plug & Charge</h3>
+                        <p>Simply plug in and charging begins automatically, with payment linked to your Tesla account.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Discover Section -->
+        <section id="discover" class="discover-section">
+            <div class="container">
+                <h3>Experience The Future</h3>
+                <h2>Revolutionary Features</h2>
+                <div class="features-grid">
+                    <div class="feature-card">
+                        <img src="https://www.lavanguardia.com/files/image_449_220/uploads/2024/04/28/662e78649a75d.jpeg" alt="Autopilot">
+                        <h3>Autopilot</h3>
+                        <p>Advanced driver assistance features designed to enhance safety and convenience.</p>
+                        <a href="#" class="learn-more">Learn more <i data-lucide="chevron-right"></i></a>
+                    </div>
+                    <div class="feature-card">
+                        <img src="https://www.teslarati.com/wp-content/uploads/2020/06/tesla-model-s-plaid-3.jpg" alt="Long Range">
+                        <h3>Long Range</h3>
+                        <p>Go anywhere with up to 405 miles of estimated range on a single charge.</p>
+                        <a href="#" class="learn-more">Learn more <i data-lucide="chevron-right"></i></a>
+                    </div>
+                    <div class="feature-card">
+                        <img src="https://cdn.mos.cms.futurecdn.net/3b5005024dd8fad339dd5e42ae856d95.jpg" alt="Ludicrous Speed">
+                        <h3>Ludicrous Speed</h3>
+                        <p>Experience 0-60 mph in as little as 1.99 seconds with the Model S Plaid.</p>
+                        <a href="#" class="learn-more">Learn more <i data-lucide="chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Shop Section -->
+        <section id="shop" class="shop-section">
+            <div class="container">
+                <h3>Tesla</h3>
+                <h2>Shop</h2>
+                <div class="shop-grid">
+                    <div class="shop-item">
+                        <img src="https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/LIFESTYLE/TOPS/HOODIES_SWEATSHIRTS/2151994-00-A_0_2000.png" alt="Tesla Apparel">
+                        <h3></h3>
+                        <a href="#" class="shop-now">Shop now <i data-lucide="chevron-right"></i></a>
+                    </div>
+                    
+                    <div class="shop-item">
+                        <img src="https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/CAR_ACCESSORIES/CYBERTRUCK/INTERIOR/2119509-00-A-1-01.png" alt="Tesla Vehicle Accessories">
+                        <h3>Vehicle Accessories</h3>
+                        <a href="#" class="shop-now">Shop now <i data-lucide="chevron-right"></i></a>
+                    </div>
+                    <div class="shop-item">
+                        <img src="https://digitalassets-shop.tesla.com/image/upload/f_auto,q_auto/v1/content/dam/tesla/LIFESTYLE/ACCESSORIES_COLLECTIBLES/COLLECTIBLES/2080682-00-A-1-01.png" alt="Tesla Lifestyle">
+                        <h3></h3>
+                        <a href="#" class="shop-now">Shop now <i data-lucide="chevron-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="cta-section">
+            <div class="container">
+                <h2>
+                    <span>Experience</span>
+                    <span class="gradient-text">Tesla Today</span>
+                </h2>
+                <p>Schedule a demo drive and experience the future of electric vehicles firsthand.</p>
+                <a href="#" class="btn btn-primary">Schedule Demo Drive</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>Tesla</h3>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Vehicles</h3>
+                    <ul>
+                        <li><a href="#">Model S</a></li>
+                        <li><a href="#">Model 3</a></li>
+                        <li><a href="#">Model X</a></li>
+                        <li><a href="#">Model Y</a></li>
+                        <li><a href="#">Cybertruck</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Energy</h3>
+                    <ul>
+                        <li><a href="#">Solar Panels</a></li>
+                        <li><a href="#">Solar Roof</a></li>
+                        <li><a href="#">Powerwall</a></li>
+                        <li><a href="#">Megapack</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Charging</h3>
+                    <ul>
+                        <li><a href="#">Charging</a></li>
+                        <li><a href="#">Home Charging</a></li>
+                        <li><a href="#">Supercharging</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Vehicle Support</a></li>
+                        <li><a href="#">Energy Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Shop</h3>
+                    <ul>
+                        <li><a href="#">Shop</a></li>
+                        <li><a href="#">Tesla Account</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Tesla, Inc. All rights reserved.</p>
+                <ul>
+                    <li><a href="#">Privacy & Legal</a></li>
+                    <li><a href="#">Vehicle Recalls</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">News</a></li>
+                    <li><a href="#">Locations</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
